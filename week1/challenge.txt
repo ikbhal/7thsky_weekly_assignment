@@ -1,0 +1,155 @@
+Bismillah
+
+
+week assignment
+---
+best case: 2 dya
+lately: 6days
+---
+
+list of products (3)
+
+p1(descriton, price)
+p2
+p3
+---
+p1 click -> 
+product details of p1
+---
+ quantity textbox
+add button 
+ click -> it should cart
+---
+cart link 
+ open -> it will list out all producted added
+ p1, q: 1
+ p2 ,q:2
+---
+totoal value
+
+p1: 5rs, q:1
+p2: 10rs, q:2
+total: 15rs
+----
+order button 
+  message -> order created -> show order number -> 101 (1, 2, ..)
+ it should sms -> email 
+   sms gateway not feasible
+   email is 
+      gmail 
+      node js tutorial
+      no fee
+--
+mail -> 
+ order id   101
+ p1
+ p2
+--- 
+
+technology
+ javascript
+ jquery
+ ---
+ react js
+--
+migrate react js 
+
+-====
+quanity only cart
+  drop down -> html select tag
+  no image
+  later images
+
+---
+no product details
+  product etails
+
+    https://www.amazon.in/gp/product/B07QJ98MCY/ref=ox_sc_act_title_1?smid=A2PHX83M4W3CUI&psc=1
+
+---
+lisrt 3 products
+p1, p2(, p3(5r)    
+---
+make it dynamic
+product = [{name: "black board", price: "700" }, {name: "red mi phone", price: "10000" }]
+
+
+var cart = []
+ul > li
+ul
+ <button tag  id="add_button"
+
+cart.push
+
+
+ul
+ li
+  <div >
+    black board
+    600rs
+  </div>
+ li
+
+ li
+
+---
+generate dynimicaly
+  <div >
+    black board -> <span id="name"></span
+    Price <span id="price>600rs</span>
+  </div>
+
+$("#price").text("600");
+
+iterate product array, 
+  create div dynamically
+
+---
+cart
+ 
+  <div
+   <div>product 
+    <select id="quantity">
+---
+write function 
+total
+
+cart = [] -> [{name: "board", price: "700", quantity: 1},{name: "red mi", price: "1000", quantity: 3}]
+iterate over cart array
+
+function gettotal(){
+
+//
+	return total;
+}
+
+---
+var orderIdGenerator = 1;
+
+---
+call api send mail 
+  node .js experess
+    post /order
+     body:  [{name: "board", price: "700", quantity: 1},{name: "red mi", price: "1000", quantity: 3}]
+     content type :application/json
+
+    response:
+     order Id : 1 -> 2 _. ... 101
+---
+node 
+
+https://www.npmjs.com/package/gmail-send     
+
+---
+week challenge / day 1:  list of products
+week challenge / day 2 : add product to cart
+week challenge /day 3: show cart -> products in cart
+week challenge / day 4 : show total
+week challnege /day 5: place order -> calling back end api (express, node.js, mongoose, gmail-send npm package)
+  send mail to shop owner -> about the order need to handle (products, quantity)
+---
+best: 1 or 2 days
+---
+
+
+https://www.youtube.com/watch?v=wPQ1-33teR4
