@@ -1,0 +1,195 @@
+Bismillah
+
+insha allah complete the following
+
+
+https://www.youtube.com/watch?v=T4-nAALjJrM
+
+There some video google
+which are very good
+
+many people dont know
+
+even dont about that channel
+josh talks, josh talks tamil
+----
+create platform where
+---
+all the videos
+video(
+url:"https://www.youtube.com/watch?v=T4-nAALjJrM', 
+title:"Business பண்ண Confidence முக்கியம் | Chai Kanth Suresh | Business Motivation | Josh Talks Tamil"
+tags: ["tamil", "business", "motivation", "josh talks"]
+language: "tamil"
+)
+---
+
+1) create video api 
+POST /videos 
+
+{
+    url: "",
+    title: "",
+    tags: [],
+    language: ""
+}
+resonse
+{
+    id : 101
+    url: "",
+    title: "",
+    tags: [],
+    language: ""
+}
+
+
+2) list video api
+get all videos
+GET /videos
+
+request body:  no
+
+response body:
+[
+{
+    id : 101
+    url: "",
+    title: "",
+    tags: [],
+    language: ""
+},
+{
+    id : 101
+    url: "",
+    title: "",
+    tags: [],
+    language: ""
+}
+]
+
+
+3) delete video api
+DELETE /videos/<videoId>
+ex: /video/101
+
+request body :no
+response:
+{
+    status : "success" 
+}
+
+fail: 
+{
+    status : "fail",
+    err: "" 
+}
+
+4) update video api
+PUT /videos/<videoId> -> /videos/101
+
+request body
+application/json
+
+{
+    id : 101
+    url: "",
+    title: "",
+    tags: [],
+    language: ""
+}
+
+response:
+{
+    status : "success",
+    data: 
+        {
+            id : 101
+            url: "",
+            title: "",
+            tags: [],
+            language: ""
+        }
+}        
+
+fail: 
+{
+    status : "fail",
+    err: "" 
+}
+
+
+5) search video
+GET /video?q=<keyword>
+
+request body : no
+response body:
+application/json
+[
+{
+    id : 101
+    url: "",
+    title: "",
+    tags: [],
+    language: ""
+},
+{
+    id : 101
+    url: "",
+    title: "",
+    tags: [],
+    language: ""
+}
+]
+
+6) pagination video api
+similar to get api
+GET /videos?pageNo=2&pageSize=25
+
+1: 25, 2: 26 to 50
+request body: no
+response body: 
+application /json
+
+
+{
+    pageNo: 2,
+    pageSize: 25,
+    total: 80,
+    data: [
+        {
+            id : 101
+            url: "",
+            title: "",
+            tags: [],
+            language: ""
+        },
+        //... 24 video 
+    ]
+}
+
+----
+front end
+
+javascript -> jquery -> react js
+---
+bootstrap preferrable, responsive website
+----
+
+front ui
+search box at the top
+
+list of videos
+4 videos in row
+
+optional task: on reaching end of page, it should fetch next 25 videos
+
+when click the video title/image -> it should open page which contains youtube embedded video
+---
+
+if it big -> we will split 2 parts (front end, backend)
+front end 
+ all the data variables 
+ no backend api call
+
+---
+ 
