@@ -1,0 +1,32 @@
+Bismillah
+
+react native
+ using expo
+ firebase
+----
+list of items
+
+Amul Milk
+ Amul Deshi  A2 Cow Milk, 28
+---
+p1, 10, + button
+p2, 20, + button
+p3, 15, + button
+---
+
+difficult:
+react
+firebase
+listing
+
+timeline:
+3days: grace, 
+2 days: enough:Nov2, satur day morning
+1 days: superb
+
+
+Monday: 4th morning
+
+
+---
+https://expo.io/
