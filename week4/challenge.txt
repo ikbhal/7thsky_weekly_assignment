@@ -1,0 +1,43 @@
+Bismillah
+
+start :Mon day (Nov4, )
+complete by : saturday morning
+---
+
+book summaries react js website
+
+bonus: redux
+next level bonus: use backed from 
+
+option 1)  firebase firestore
+option 2) mongoose node.js
+
+functionality
+1) list of book sumarries
+like youtube play list
+--
+https://www.youtube.com/channel/UCRI6t05DNVlV0XhdI7hx_iw/videos
+
+row 4 videos
+
+minimum list name
+
+1) book1
+2) book 2
+3) book3
+--
+second page
+book summary detila page
+1) where you can show youtube embedded link for the book
+https://www.youtube.com/watch?v=PXgSQKzcn6Y
+---
+
+react js difficult
+---
+make it with any framework
+
+even javascript
+jquery
+---
+compplete it any means
+

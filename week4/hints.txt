@@ -1,0 +1,44 @@
+Bismillah
+
+Q) How to embed youtube video?
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PXgSQKzcn6Y"
+ frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ Q) Where to get book summary video?
+ A)
+ search in youtube
+ "book summary"
+
+ Q) I am not able to understand book summary in english?
+ you can choose even tamil, hindi, ..
+ https://www.youtube.com/channel/UC0aAZJ8JIQrKCwmhEGExDpA
+ 4am tamil motivation
+
+ Q) firebase tutorial,cde
+ 7thksy-javascript-firebase
+ google it firebase tutorial
+
+
+ Q) javascript onlyh
+[
+ {
+     url: "https://www.youtube.com/watch?v=nv56_7J-568",
+     book : "MORNING HABITS OF MOST SUCCESSFUL PEOPLE",
+     language: "Tamil"
+ },
+ {
+     url: "https://www.youtube.com/watch?v=nv56_7J-568",
+     book : "MORNING HABITS OF MOST SUCCESSFUL PEOPLE",
+     language: "Tamil"
+ },
+ {
+     url: "https://www.youtube.com/watch?v=nv56_7J-568",
+     book : "MORNING HABITS OF MOST SUCCESSFUL PEOPLE",
+     language: "Tamil"
+ },
+ {
+     url: "https://www.youtube.com/watch?v=nv56_7J-568",
+     book : "MORNING HABITS OF MOST SUCCESSFUL PEOPLE",
+     language: "Tamil"
+ }
+]
