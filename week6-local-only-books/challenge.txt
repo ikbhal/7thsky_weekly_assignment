@@ -1,0 +1,29 @@
+Bismillah
+
+reference: 
+
+https://www.prabhatbooks.com/hindibooks.htm
+
+
+1) build website in javascript/jquery/react js , backend: node.js/mongodb/express or firebase firestore
+1) able to list categories of books
+user story : list books(name of book, image optional, price) ,
+user story: add to cart button at under each book
+user story: cart page
+show in table structure
+book name, quanity, price
+user story: 
+cart : show subtotal : all book price, shipping: 50rs , total  = shipping + subtotal
+user story: 
+
+----
+optional bonus challenge  1)
+
+user story:  creat account
+user story : login 
+user story : image captcha in create account
+
+---
+optional bonus 
+user story: search by ISBN, title, athor
+user story: search book by keywords
