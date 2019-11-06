@@ -1,0 +1,37 @@
+Bismillah
+
+Reference:
+yourstory.com
+
+startup stories collection
+every day they will publish new startup stories
+
+1) local version
+https://yourstory.com/tamil
+https://yourstory.com/kannada
+
+1)podcast
+1)explain
+images charts
+https://visual.yourstory.com/
+
+1)videos
+---
+1)social story
+1)her story
+https://yourstory.com/herstory/2019/11/woman-led-sp-robotic-works-drone-coding-technology
+
+---
+collection 
+of stories
+
+user story: list story by title, image optional
+us: story detail page
+---
+optional
+user story: audio track /podcast
+us:heihlight text image red color
+us: embed video
+us: search story
+us: local language
+--
