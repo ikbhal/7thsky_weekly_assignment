@@ -2,5 +2,5 @@ Bismillah
 
 
 
-react native listing items
+1)react native listing items
 https://react-native-elements.github.io/react-native-elements/docs/listitem.html

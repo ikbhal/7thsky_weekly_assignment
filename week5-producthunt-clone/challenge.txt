@@ -1,0 +1,8 @@
+Bismillah
+
+Please create product hunt.com clone
+
+user stories
+
+1) list product highest votes at the top for the day
+1) vote product
